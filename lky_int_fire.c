@@ -197,6 +197,7 @@ struct leakyNeuron **neurons, int* connectivity_array, int* spike_outputs, int* 
         }
         start_index += topology[i];
     }
+    return spike_outputs;
 }
 
 int main( int argc, char ** argv ) {
